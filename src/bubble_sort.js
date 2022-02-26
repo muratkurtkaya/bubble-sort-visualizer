@@ -8,7 +8,7 @@ function generateArray() {
 	// 	container.removeChild(container.childNodes[0])
 	// }
 	container.innerHTML = ""; //deletes all childs
-	for (var i = 0; i < 10; i++) {
+	for (var i = 0; i < 20; i++) {
 
 		// Return a value from 1 to 100 (both inclusive)
 		var value = Math.ceil(Math.random() * 100);
