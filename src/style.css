@@ -1,0 +1,88 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+.header {
+	font-size: 20px;
+	text-align: center;
+}
+
+#array {
+	background-color: white;
+	height: 413px;
+	width: 598px;
+	margin: auto;
+	position: relative;
+	margin-top: 64px;
+}
+
+.block {
+	width: 28px;
+	background-color: #6b5b95;
+	position: absolute;
+	bottom: 0px;
+	transition: 0.2s all ease;
+	
+}
+
+.block_id {
+	position: absolute;
+	color: black;
+	margin-top: -20px;
+	width: 100%;
+	text-align: center;
+}
+
+.btn {
+    border: none;
+    background-color: inherit;
+	height : 50px;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+  }
+
+.btn:hover {background: greenyellow}
+.generator {position: relative;
+            margin: auto;
+            margin-left: 50px;
+            color : rgb(15, 7, 7);
+            background: rgb(89, 89, 149);}
+
+.btn:hover {background: greenyellow}
+.BubbleSort {
+			position: relative;
+            margin: auto;
+            margin-left: 25px;
+            color : rgb(15, 7, 7);
+            background: rgb(89, 89, 149);
+		}
+.selector-container {
+	display: inline-block;
+	position: absolute;
+	margin-left: 25px;
+}
+.selector {
+	width: 150px;
+	height: 50px;
+	display: flex;	
+}
+.selector span {
+	width: 100px;
+	background-color: rgb(73, 62, 134);
+	text-align: center;
+	display: flex;
+	align-items: center;
+	font-weight: bold;
+	color: rgb(144, 129, 129);
+}
+.selector select {
+	background-color: rgb(73, 62, 134);
+}
+
+
+
+		
